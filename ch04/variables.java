@@ -1,5 +1,7 @@
 package ch04;
 
+//variables
+
 public class variables {
     public static void main(String[] args){
         int age = 20;
@@ -14,6 +16,17 @@ public class variables {
         System.out.println("Grade: " + grade );
         System.out.println("IsStudent? " + isStudent);
         System.out.println("Population: " + population);
+
+        age = 21;
+        System.out.println("Next year: " + age);
+
+        final double PI = 3.1419;
+        System.out.println("PI= " + PI);
+
+        var city = "Nairobi";
+        System.out.println("City: " + city);
+
+
 
 
     }
